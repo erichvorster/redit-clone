@@ -11,6 +11,11 @@ const page: FC = () => {
             <CloseModal /> 
           </div>
 
+
+
+
+
+
           <SignIn />
         </div>
       </div>
