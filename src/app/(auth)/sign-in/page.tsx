@@ -1,5 +1,6 @@
 //Placing the (auth) folder route in parenthesis opts out of NextJS default routing behaviour.
 
+import SignIn from "@/components/SignIn";
 import { buttonVariants } from "@/components/ui/Button";
 import {cn} from "@/lib/utils";
 import Link from "next/link";
@@ -13,7 +14,10 @@ const page: FC = () => {
                 Home
                 </Link>
                 
+                <SignIn/>
             </div>
         </div>
     );
 }
+
+export default page;
